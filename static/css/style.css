@@ -1,0 +1,232 @@
+#aboutMeTitle {
+    margin-top: 10px;
+    }
+
+/* Name in navbar */
+.navbar-brand {
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 5px;
+    color: white;
+    }
+
+.navbar-nav  {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    radius: 0px;
+    }
+
+.fa {
+    font-size:36px;
+    margin-top: -8px;
+    }
+
+.navbarButton {
+    font-size: 24px;
+    margin-top:10px;
+    }
+
+.aboutME {
+    background: url("../../images/backgroundTexture.png") center;
+    background-image: fixed;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding: 20px 0px 20px 0px;
+}
+
+.kyotoImage {
+    position: relative;
+    text-align: center;
+    color: white;
+    height:100%;
+    background-position: top center;
+    background-repeat: none;
+    background-size: cover;
+    overflow: hidden;
+    margin-top: -20px;
+    }
+
+.centered {
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 40px;
+    width: 1000px;
+    }
+
+#small {
+    font-size: 20px;
+    align: middle;
+    }
+
+#big {
+    font-size: 60px;
+    align: middle;
+
+    }
+
+.projects {
+    background-color: rgb(231, 231, 231);
+    }
+
+#profilePicture {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    border-radius: 3px;
+    margin-left: auto;
+    margin-right: auto;
+    }
+
+#profileFrame {
+    box-shadow: 0px 4px 8px 0 rgba(0, 0, 0, 0.4), 0px 16px 20px 0px rgba(0, 0, 0, 0.19);
+    max-width: 110%;
+    height: auto;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /* max-width: 90%; */
+    }
+
+.title {
+    text-align: center;
+    /* background: rgb(0, 128, 0, .2); */
+    color: black;
+    margin: 5px auto 5px auto;
+    padding: 5px;
+    width: 100%;
+    }
+
+#aboutMeParagraph {
+    padding: 10px;
+    margin: 0px auto 0px auto;
+    width: 550px;
+    opacity: 1;
+    font-size: 20px;
+    }
+
+#projectsParagraph {
+    margin: 5px auto 5px auto;
+    width: 550px;
+    border-radius: 5px;
+    }
+
+.taskTitle {
+    list-style: none;
+    font-size: 20px;
+    font-weight: bold;
+    }
+
+.taskParagraph {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    height: 70px;
+    }
+
+.toolsTitle {
+    list-style: none;
+    font-size: 20px;
+    font-weight: bold;
+    }
+
+li {
+    list-style-type: circle;
+    list-style-position: inside;
+    }
+
+#linksParagraph {
+    margin: 5px auto 5px auto;
+    width: 550px;
+    border-radius: 5px;
+    }
+
+p {
+    background-color: rgb(189, 255, 189, .6);
+    text-align: left;
+    padding: 5px;
+    font-size: 17px;
+    font-family: serif;
+    }
+
+.taskParagraph {
+    font-family: serif;
+    font-size: 17px;
+    }
+
+.projectBack {
+    /* background:rgb(85, 207, 85); */
+    height: 450px;
+    margin-bottom: 40px;
+    }
+
+.graph {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.6), 0 6px 20px 0 rgba(0, 0, 0, 0.60);
+    max-width: 90%;
+    }
+
+.everyUl {
+    color: black;
+    padding-top: 5px;
+    }
+
+body {
+    background-color: rgb(231, 231, 231);
+    }
+
+h3 {
+    text-align: center;
+    background-color: rgb(231, 231, 231);
+    color: black;
+    padding: 5px 5px 5px 5px;
+    margin: 40px 0px 30px 0px;
+    }
+
+/* hover over image image effect */
+.container {
+    position: relative;
+    width: 100%;
+    }
+  
+.image {
+    opacity: 1;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    }
+  
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+    }
+  
+.container:hover .image {
+    opacity: 0.3;
+  }
+  
+.container:hover .middle {
+    opacity: 1;
+  }
+  
+.text {
+    background-color: rgb(231, 231, 231);
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+  }
+
